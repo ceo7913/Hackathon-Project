@@ -16,9 +16,7 @@ const resolveFixup = {
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    rollupOptions: {
-      external: ['react-dom'],
-    },
+    chunkSizeWarningLimit: 1000 * 1024 // Set the limit to 1 MB
   },
   optimizeDeps: {
     esbuildOptions: {
