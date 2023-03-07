@@ -1,4 +1,4 @@
-import { createRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom'
 import { Provider } from 'react-redux'
 import App from './App'
 import './assets/css/app.css'
@@ -12,3 +12,4 @@ root.render(
     <App />
   </Provider>,
 )
+
