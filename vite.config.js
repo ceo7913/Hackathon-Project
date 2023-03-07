@@ -16,7 +16,8 @@ const resolveFixup = {
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    chunkSizeWarningLimit: 1000 * 1024 // Set the limit to 1 MB
+    chunkSizeWarningLimit: 1000 * 1024, // Set the limit to 1 MB
+    outDir: 'build'
   },
   optimizeDeps: {
     esbuildOptions: {
