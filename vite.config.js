@@ -17,8 +17,8 @@ const resolveFixup = {
 export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1000 * 1024, // Set the limit to 1 MB
-    outDir: 'build'
   },
+  base: '/Hackathon-Project/',
   optimizeDeps: {
     esbuildOptions: {
       plugins: [resolveFixup],
