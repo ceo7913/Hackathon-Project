@@ -1,7 +1,6 @@
 # 프로젝트명 
 스마트시티 ESG 친환경 AI 관리시스템 및 플랫폼 
 
- 
 ## 유튜브 시연 영상 링크
 https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 
