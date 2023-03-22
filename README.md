@@ -51,3 +51,527 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 <img src="https://user-images.githubusercontent.com/106497516/225564360-ebdf8e3a-9457-4ae1-97c8-585b0be2f0dd.png"/>
 <img src="https://user-images.githubusercontent.com/106497516/225564491-c2d427c4-3e9b-4da0-88e0-05a9c86f4db6.png"/>
 
+## src 파일 구조 
+
+```
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📂css
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜_breadcrumb.css
+ ┃ ┃ ┃ ┣ 📜_chat-dropdown.css
+ ┃ ┃ ┃ ┣ 📜_chat.css
+ ┃ ┃ ┃ ┣ 📜_ckeditor.css
+ ┃ ┃ ┃ ┣ 📜_content.css
+ ┃ ┃ ┃ ┣ 📜_dark-mode-switcher.css
+ ┃ ┃ ┃ ┣ 📜_dropzone.css
+ ┃ ┃ ┃ ┣ 📜_error-page.css
+ ┃ ┃ ┃ ┣ 📜_full-calendar.css
+ ┃ ┃ ┃ ┣ 📜_global.css
+ ┃ ┃ ┃ ┣ 📜_hljs.css
+ ┃ ┃ ┃ ┣ 📜_inbox-filter.css
+ ┃ ┃ ┃ ┣ 📜_inbox.css
+ ┃ ┃ ┃ ┣ 📜_litepicker.css
+ ┃ ┃ ┃ ┣ 📜_login.css
+ ┃ ┃ ┃ ┣ 📜_lucide-icon.css
+ ┃ ┃ ┃ ┣ 📜_mobile-menu.css
+ ┃ ┃ ┃ ┣ 📜_news.css
+ ┃ ┃ ┃ ┣ 📜_notification-content.css
+ ┃ ┃ ┃ ┣ 📜_notification.css
+ ┃ ┃ ┃ ┣ 📜_pos-dropdown.css
+ ┃ ┃ ┃ ┣ 📜_post.css
+ ┃ ┃ ┃ ┣ 📜_pricing-tabs.css
+ ┃ ┃ ┃ ┣ 📜_pristine.css
+ ┃ ┃ ┃ ┣ 📜_report-box-2.css
+ ┃ ┃ ┃ ┣ 📜_report-box-3.css
+ ┃ ┃ ┃ ┣ 📜_report-box-4.css
+ ┃ ┃ ┃ ┣ 📜_report-box.css
+ ┃ ┃ ┃ ┣ 📜_report-chart.css
+ ┃ ┃ ┃ ┣ 📜_report-maps.css
+ ┃ ┃ ┃ ┣ 📜_search-result.css
+ ┃ ┃ ┃ ┣ 📜_search.css
+ ┃ ┃ ┃ ┣ 📜_side-nav.css
+ ┃ ┃ ┃ ┣ 📜_source-preview.css
+ ┃ ┃ ┃ ┣ 📜_table-report.css
+ ┃ ┃ ┃ ┣ 📜_tabulator.css
+ ┃ ┃ ┃ ┣ 📜_tiny-slider.css
+ ┃ ┃ ┃ ┣ 📜_tippy.css
+ ┃ ┃ ┃ ┣ 📜_toastify-content.css
+ ┃ ┃ ┃ ┣ 📜_toastify.css
+ ┃ ┃ ┃ ┣ 📜_tom-select.css
+ ┃ ┃ ┃ ┣ 📜_top-bar-boxed.css
+ ┃ ┃ ┃ ┣ 📜_top-nav.css
+ ┃ ┃ ┃ ┗ 📜_zoom-vanilla.css
+ ┃ ┃ ┣ 📂fonts
+ ┃ ┃ ┃ ┗ 📜_roboto.css
+ ┃ ┃ ┣ 📜app.css
+ ┃ ┃ ┣ 📜_colors.css
+ ┃ ┃ ┗ 📜_tailwind.css
+ ┃ ┣ 📂fonts
+ ┃ ┃ ┗ 📂roboto
+ ┃ ┃ ┃ ┣ 📜LICENSE.txt
+ ┃ ┃ ┃ ┣ 📜Roboto-Black.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-BlackItalic.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-Bold.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-BoldItalic.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-Italic.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-Light.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-LightItalic.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-Medium.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-MediumItalic.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-Regular.ttf
+ ┃ ┃ ┃ ┣ 📜Roboto-Thin.ttf
+ ┃ ┃ ┃ ┗ 📜Roboto-ThinItalic.ttf
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📂placeholders
+ ┃ ┃ ┃ ┣ 📜200x200.jpg
+ ┃ ┃ ┃ ┗ 📜800x800.jpg
+ ┃ ┃ ┣ 📜bg-login-page-dark.svg
+ ┃ ┃ ┣ 📜bg-login-page.svg
+ ┃ ┃ ┣ 📜error-illustration.svg
+ ┃ ┃ ┣ 📜food-beverage-1.jpg
+ ┃ ┃ ┣ 📜food-beverage-10.jpg
+ ┃ ┃ ┣ 📜food-beverage-11.jpg
+ ┃ ┃ ┣ 📜food-beverage-12.jpg
+ ┃ ┃ ┣ 📜food-beverage-13.jpg
+ ┃ ┃ ┣ 📜food-beverage-14.jpg
+ ┃ ┃ ┣ 📜food-beverage-15.jpg
+ ┃ ┃ ┣ 📜food-beverage-16.jpg
+ ┃ ┃ ┣ 📜food-beverage-17.jpg
+ ┃ ┃ ┣ 📜food-beverage-18.jpg
+ ┃ ┃ ┣ 📜food-beverage-19.jpg
+ ┃ ┃ ┣ 📜food-beverage-2.jpg
+ ┃ ┃ ┣ 📜food-beverage-3.jpg
+ ┃ ┃ ┣ 📜food-beverage-4.jpg
+ ┃ ┃ ┣ 📜food-beverage-5.jpg
+ ┃ ┃ ┣ 📜food-beverage-6.jpg
+ ┃ ┃ ┣ 📜food-beverage-7.jpg
+ ┃ ┃ ┣ 📜food-beverage-8.jpg
+ ┃ ┃ ┣ 📜food-beverage-9.jpg
+ ┃ ┃ ┣ 📜illustration.svg
+ ┃ ┃ ┣ 📜logo.svg
+ ┃ ┃ ┣ 📜map-marker-dark.svg
+ ┃ ┃ ┣ 📜map-marker-region-dark.svg
+ ┃ ┃ ┣ 📜map-marker-region.png
+ ┃ ┃ ┣ 📜map-marker-region.svg
+ ┃ ┃ ┣ 📜map-marker.png
+ ┃ ┃ ┣ 📜map-marker.svg
+ ┃ ┃ ┣ 📜phone-illustration.svg
+ ┃ ┃ ┣ 📜preview-1.jpg
+ ┃ ┃ ┣ 📜preview-10.jpg
+ ┃ ┃ ┣ 📜preview-11.jpg
+ ┃ ┃ ┣ 📜preview-12.jpg
+ ┃ ┃ ┣ 📜preview-13.jpg
+ ┃ ┃ ┣ 📜preview-14.jpg
+ ┃ ┃ ┣ 📜preview-15.jpg
+ ┃ ┃ ┣ 📜preview-2.jpg
+ ┃ ┃ ┣ 📜preview-3.jpg
+ ┃ ┃ ┣ 📜preview-4.jpg
+ ┃ ┃ ┣ 📜preview-5.jpg
+ ┃ ┃ ┣ 📜preview-6.jpg
+ ┃ ┃ ┣ 📜preview-7.jpg
+ ┃ ┃ ┣ 📜preview-8.jpg
+ ┃ ┃ ┣ 📜preview-9.jpg
+ ┃ ┃ ┣ 📜profile-1.jpg
+ ┃ ┃ ┣ 📜profile-10.jpg
+ ┃ ┃ ┣ 📜profile-11.jpg
+ ┃ ┃ ┣ 📜profile-12.jpg
+ ┃ ┃ ┣ 📜profile-13.jpg
+ ┃ ┃ ┣ 📜profile-14.jpg
+ ┃ ┃ ┣ 📜profile-15.jpg
+ ┃ ┃ ┣ 📜profile-2.jpg
+ ┃ ┃ ┣ 📜profile-3.jpg
+ ┃ ┃ ┣ 📜profile-4.jpg
+ ┃ ┃ ┣ 📜profile-5.jpg
+ ┃ ┃ ┣ 📜profile-6.jpg
+ ┃ ┃ ┣ 📜profile-7.jpg
+ ┃ ┃ ┣ 📜profile-8.jpg
+ ┃ ┃ ┣ 📜profile-9.jpg
+ ┃ ┃ ┗ 📜woman-illustration.svg
+ ┃ ┗ 📂json
+ ┃ ┃ ┗ 📜location.json
+ ┣ 📂base-components
+ ┃ ┣ 📂accordion
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂alert
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂calendar
+ ┃ ┃ ┣ 📜Draggable.jsx
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂candleChart
+ ┃ ┃ ┗ 📜ApexChartTest.jsx
+ ┃ ┣ 📂chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂ckeditor
+ ┃ ┃ ┣ 📜BalloonBlockEditor.jsx
+ ┃ ┃ ┣ 📜BalloonEditor.jsx
+ ┃ ┃ ┣ 📜ClassicEditor.jsx
+ ┃ ┃ ┣ 📜DocumentEditor.jsx
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜InlineEditor.jsx
+ ┃ ┣ 📂dropdown
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂dropzone
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂google-map-loader
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂litepicker
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂loading-icon
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂lucide
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂modal
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂notification
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂preview-component
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂scroll-to-top
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tab
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂tiny-slider
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tippy
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tippy-content
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tom-select
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┗ 📜index.js
+ ┣ 📂components
+ ┃ ┣ 📂calendar
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂candleChart
+ ┃ ┃ ┗ 📜CandleChart.jsx
+ ┃ ┣ 📂dark-mode-switcher
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂donut-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂horizontal-bar-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂line-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂main-color-switcher
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂mobile-menu
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂pie-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-bar-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-bar-chart-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-donut-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-donut-chart-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-donut-chart-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-line-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-map
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂report-pie-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂side-menu-tooltip
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂simple-line-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂simple-line-chart-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂simple-line-chart-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂simple-line-chart-3
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂simple-line-chart-4
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂stacked-bar-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂stacked-bar-chart-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂top-bar
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜KakaoTalk_20221028_181416490.png
+ ┃ ┃ ┃ ┣ 📜mainprofile.png
+ ┃ ┃ ┃ ┣ 📜profile_1.png
+ ┃ ┃ ┃ ┣ 📜profile_10.png
+ ┃ ┃ ┃ ┣ 📜profile_11.png
+ ┃ ┃ ┃ ┣ 📜profile_2.png
+ ┃ ┃ ┃ ┣ 📜profile_3.png
+ ┃ ┃ ┃ ┣ 📜profile_4.png
+ ┃ ┃ ┃ ┣ 📜profile_5.png
+ ┃ ┃ ┃ ┣ 📜profile_6.png
+ ┃ ┃ ┃ ┣ 📜profile_7.png
+ ┃ ┃ ┃ ┣ 📜profile_8.png
+ ┃ ┃ ┃ ┣ 📜profile_9.png
+ ┃ ┃ ┃ ┗ 📜인피니티.png
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂vertical-bar-chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📜Orderbook.jsx
+ ┃ ┣ 📜Orderbooks.jsx
+ ┃ ┣ 📜OrderPanel.jsx
+ ┃ ┣ 📜PricePanel.jsx
+ ┃ ┣ 📜PricePanelRecycle.jsx
+ ┃ ┗ 📜PricePanelSmall.jsx
+ ┣ 📂layouts
+ ┃ ┣ 📂side-menu
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂simple-menu
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┗ 📂top-menu
+ ┃ ┃ ┗ 📜Main.jsx
+ ┣ 📂redux
+ ┃ ┣ 📂reducer
+ ┃ ┃ ┣ 📜coinReducer.js
+ ┃ ┃ ┣ 📜exchangeReducer.js
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┣ 📜loginReducer.js
+ ┃ ┃ ┣ 📜myAssetReducer.js
+ ┃ ┃ ┣ 📜transferAssetReducer.js
+ ┃ ┃ ┗ 📜userReducer.js
+ ┃ ┣ 📜apiActions.js
+ ┃ ┗ 📜store.js
+ ┣ 📂router
+ ┃ ┗ 📜index.jsx
+ ┣ 📂socket
+ ┃ ┗ 📜index.js
+ ┣ 📂stores
+ ┃ ┣ 📜color-scheme.js
+ ┃ ┣ 📜dark-mode.js
+ ┃ ┣ 📜side-menu.js
+ ┃ ┣ 📜simple-menu.js
+ ┃ ┗ 📜top-menu.js
+ ┣ 📂utils
+ ┃ ┣ 📜colors.js
+ ┃ ┣ 📜faker.js
+ ┃ ┣ 📜helper.js
+ ┃ ┣ 📜index.js
+ ┃ ┗ 📜timeForToday.js
+ ┣ 📂views
+ ┃ ┣ 📂accordion
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂add-product
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂alert
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂blog-layout-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂blog-layout-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂blog-layout-3
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂button
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂calendar
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂categories
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂change-password
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂chart
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂chat
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂crud-data-list
+ ┃ ┃ ┣ 📜green.json
+ ┃ ┃ ┣ 📜Main.jsx
+ ┃ ┃ ┗ 📜Test.jsx
+ ┃ ┣ 📂crud-form
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-0
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-1
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-2
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-3
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-4
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-5
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-6
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-7
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-8
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-9
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜Order.css
+ ┃ ┃ ┃ ┣ 📜Orderbook.css
+ ┃ ┃ ┃ ┣ 📜Trade.css
+ ┃ ┃ ┃ ┗ 📜TradingSimulator.css
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dashboard-overview-main
+ ┃ ┃ ┣ 📜ChangeLabel.jsx
+ ┃ ┃ ┣ 📜ChangeLabelRecycle.jsx
+ ┃ ┃ ┣ 📜EventMarkerContainer.jsx
+ ┃ ┃ ┣ 📜green copy.json
+ ┃ ┃ ┣ 📜green.json
+ ┃ ┃ ┣ 📜Main.jsx
+ ┃ ┃ ┣ 📜Pointer.jsx
+ ┃ ┃ ┗ 📜Test.jsx
+ ┃ ┣ 📂datepicker
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂dropdown
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂error-page
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂faq-layout-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂faq-layout-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂faq-layout-3
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂file-manager
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂file-upload
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂icon
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂image-zoom
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂inbox
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂invoice-layout-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂invoice-layout-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂loading-icon
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂login
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂modal
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂notification
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂point-of-sale
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂post
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂pricing-layout-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂pricing-layout-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂product-grid
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂product-list
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂profile-overview-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂profile-overview-1 copy
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂profile-overview-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂profile-overview-3
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂progress-bar
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂register
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂register copy
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂regular-form
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂regular-table
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂reviews
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂seller-detail
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂seller-list
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂slide-over
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂slider
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tab
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tabulator
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tom-select
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂tooltip
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂transaction-detail
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂transaction-list
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂typography
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂update-profile
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂users-layout-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂users-layout-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂users-layout-2 copy
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂users-layout-3
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂validation
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂wizard-layout-1
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂wizard-layout-2
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┣ 📂wizard-layout-3
+ ┃ ┃ ┗ 📜Main.jsx
+ ┃ ┗ 📂wysiwyg-editor
+ ┃ ┃ ┗ 📜Main.jsx
+ ┣ 📜App.jsx
+ ┗ 📜main.jsx
+```
+
