@@ -7,6 +7,17 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 ## 프로젝트 멤버
 강신석(BACK), 임준우(FRONT), 최제호(BLOCK-CHAIN)
 
+## 프로젝트 목적
+- React 활용능력 개선
+
+- 컴포넌트에 대한 이해
+
+- 재사용에 대한 효율 증가를 위해 활용 범위 확대
+
+- 기획과 문서 작성부터 개발, 형상관리, 테스트, 배포까지 개발 프로세스 전반을 경험
+
+- 랜더링 최적화에 대한 고민
+
 ## 사용한 스택
 <img src="https://user-images.githubusercontent.com/106497516/225558093-03353cb1-d69f-487d-9ac0-61bd41cb6bbc.png" alt="stack-img"/>
 
