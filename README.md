@@ -22,9 +22,6 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 
 - 오픈 api 사용한 데이터 가져오기 
 
-## 사용한 스택
-<img src="https://user-images.githubusercontent.com/106497516/225558093-03353cb1-d69f-487d-9ac0-61bd41cb6bbc.png" alt="stack-img"/>
-
 ## 프로젝트 정보
 - 프로젝트 상세 구성
   - 프론트엔드
@@ -52,6 +49,13 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
   > style 작업
   
   > map api 활용 DB 통신
+  
+## 이슈 및 배운점
+> [각각의 거래소의 코인을 선택했을때 해당 코인이 업데이트 되지 않는 이슈] (https://github.com/ceo7913/Hackathon-Project/issues/1)
+
+## 사용한 스택
+<img src="https://user-images.githubusercontent.com/106497516/225558093-03353cb1-d69f-487d-9ac0-61bd41cb6bbc.png" alt="stack-img"/>
+
     
 - 리액트를 사용한 이유?
   > 컴포넌트를 사용하기 때문에 재사용과 유지보수가 용이하고 Virtual Dom 을 사용하기 때문에 불필요한 랜더링을 줄이기 위해서 사용하였음
@@ -60,8 +64,6 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
   > tailwind 를 사용한 이유에 대해서는 크게 세가지 이유가 있었는데 첫번째는 css 에 능한 시니어 개발자들이 최근 tailwind 를 사용하는 빈도수가 늘었기 때문에 본인 또한 사용해 보고자
   하는 의도가 있었음, 두번째는 Class 의 이름을 일일이 지정해주지 않아도 된다는것, 세번째는 일관성 있는 디자인을 적용하기 위해서 사용하였음
 
-## 이슈 및 배운점
-> [각각의 거래소의 코인을 선택했을때 해당 코인이 업데이트 되지 않는 이슈] (https://github.com/ceo7913/Hackathon-Project/issues/1)
 
 ## 샘플 GIF (2배속)
 <img src="https://im4.ezgif.com/tmp/ezgif-4-de178f0fba.gif" alt="1">
