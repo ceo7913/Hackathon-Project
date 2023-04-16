@@ -10,6 +10,8 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 ## 프로젝트 목적
 - React 활용능력 개선
 
+- tailwind 활용능력 개선
+
 - 컴포넌트에 대한 이해
 
 - 재사용에 대한 효율 증가를 위해 활용 범위 확대
@@ -17,6 +19,8 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 - 기획과 문서 작성부터 개발, 형상관리, 테스트, 배포까지 개발 프로세스 전반을 경험
 
 - 랜더링 최적화에 대한 고민
+
+- 오픈 api 사용한 데이터 가져오기 
 
 ## 사용한 스택
 <img src="https://user-images.githubusercontent.com/106497516/225558093-03353cb1-d69f-487d-9ac0-61bd41cb6bbc.png" alt="stack-img"/>
