@@ -66,11 +66,12 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 
 
 ## 샘플 GIF (2배속)
-<img src="https://im4.ezgif.com/tmp/ezgif-4-de178f0fba.gif" alt="1">
-<img src="https://im4.ezgif.com/tmp/ezgif-4-0d162268b1.gif" alt="2">
-<img src="https://im4.ezgif.com/tmp/ezgif-4-a23546d5f2.gif" alt="3">
-<img src="https://im4.ezgif.com/tmp/ezgif-4-dc8e5e2843.gif" alt="4">
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/106497516/232308322-ac9bfcf3-e39a-43a2-a220-ebbead793a80.gif" alt="1" width="400px">
+<img src="https://user-images.githubusercontent.com/106497516/232308329-f8fde5bb-055f-4329-bdef-107ec0cef3a0.gif" alt="2" width="400px">
+<img src="https://user-images.githubusercontent.com/106497516/232308333-26b2cbaf-4104-4412-9899-6d8d31669b34.gif" alt="3" width="400px">
+<img src="https://user-images.githubusercontent.com/106497516/232308331-0a9e118c-30e3-47d3-a0a4-0763420f27f2.gif" alt="4" width="400px">
+</div>
 
 ## src 파일 구조 
 
