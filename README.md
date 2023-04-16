@@ -60,11 +60,12 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
   > tailwind 를 사용한 이유에 대해서는 크게 세가지 이유가 있었는데 첫번째는 css 에 능한 시니어 개발자들이 최근 tailwind 를 사용하는 빈도수가 늘었기 때문에 본인 또한 사용해 보고자
   하는 의도가 있었음, 두번째는 Class 의 이름을 일일이 지정해주지 않아도 된다는것, 세번째는 일관성 있는 디자인을 적용하기 위해서 사용하였음
 
-## 샘플 이미지
-<img src="https://user-images.githubusercontent.com/106497516/225564745-a0b801d3-da1b-465e-bbec-bc23d6bc80bb.png"/>
-<img src="https://user-images.githubusercontent.com/106497516/225564160-8fac19b2-a9a8-43a0-b6b4-6c9f8222a656.png"/>
-<img src="https://user-images.githubusercontent.com/106497516/225564360-ebdf8e3a-9457-4ae1-97c8-585b0be2f0dd.png"/>
-<img src="https://user-images.githubusercontent.com/106497516/225564491-c2d427c4-3e9b-4da0-88e0-05a9c86f4db6.png"/>
+## 샘플 GIF (2배속)
+<img src="https://im4.ezgif.com/tmp/ezgif-4-de178f0fba.gif" alt="1">
+<img src="https://im4.ezgif.com/tmp/ezgif-4-0d162268b1.gif" alt="2">
+<img src="https://im4.ezgif.com/tmp/ezgif-4-a23546d5f2.gif" alt="3">
+<img src="https://im4.ezgif.com/tmp/ezgif-4-dc8e5e2843.gif" alt="4">
+
 
 ## src 파일 구조 
 
