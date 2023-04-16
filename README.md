@@ -66,6 +66,8 @@ https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
 <img src="https://im4.ezgif.com/tmp/ezgif-4-a23546d5f2.gif" alt="3">
 <img src="https://im4.ezgif.com/tmp/ezgif-4-dc8e5e2843.gif" alt="4">
 
+## 이슈 및 배운점
+> [각각의 거래소의 코인을 선택했을때 해당 코인이 업데이트 되지 않는 이슈] (https://github.com/ceo7913/Hackathon-Project/issues/1)
 
 ## src 파일 구조 
 
