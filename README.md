@@ -2,7 +2,7 @@
 스마트시티 ESG 친환경 AI 관리시스템 및 플랫폼 
 
 ## 유튜브 시연 영상 링크 
-https://www.youtube.com/watch?v=xsvH_dClMfg&feature=youtu.be
+https://www.youtube.com/watch?v=HV27LlqpVKs
 
 ## 프로젝트 멤버
 강신석(BACK), 임준우(FRONT), 최제호(BLOCK-CHAIN)
